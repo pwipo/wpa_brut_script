@@ -1,7 +1,8 @@
 #!/bin/bash
 
 if [ $# -ne 4 ]; then
-    echo "No arguments supplied. need 3 args: essid, file whith passwords, min pass length, restart wpa service"
+	echo "No arguments supplied. need 3 args: essid, file whith passwords, min pass length, restart wpa service"
+	exit 1
 fi
 
 ESSID="\"$1\""
