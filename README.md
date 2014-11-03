@@ -13,3 +13,10 @@ ctrl_interface_group=wheel
 update_config=1
 
 check that in ctrl_interface set /var/run/wpa_supplicant. otherwise edit script.
+
+
+
+
+
+
+...for testing purpose
